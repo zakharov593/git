@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="166dad40-3e07-4bb5-bec7-ac66db15a165" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Case2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+      <con:settings><con:setting id="166dad40-3e07-4bb5-bec7-ac66db15a165fileName">Case2</con:setting></con:settings>
+      <con:savedRecentRuns>1</con:savedRecentRuns>
+      <con:testStep type="groovy" name="Groovy Script" id="67c1cbed-8821-4bb6-abc7-aa1d8cf841fb">
+        <con:settings/>
+        <con:config>
+          <script>//testRunner.testCase.testSuite.project.testSuites["TestSuite 1"].testCases["Case1"].run((com.eviware.soapui.support.types.StringToObjectMap)context, true)</script>
+        </con:config>
+      </con:testStep>
+      <con:setupScript>testRunner.testCase.testSuite.project.testSuites["TestSuite 1"].testCases["Case1"].run((com.eviware.soapui.support.types.StringToObjectMap)context, true)
+/*def project = testRunner.getTestCase().getTestSuite().getProject()
+def testSuite = project.getTestSuiteByName('TestSuite 1');
+def testCase = testSuite.getTestCaseByName('Case1');
+runner = testCase.run(new com.eviware.soapui.support.types.StringToObjectMap(), false);*/</con:setupScript>
+      <con:properties/>
+      <con:reportParameters/>
+    </con:testCase>
