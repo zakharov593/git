@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="1164ce72-3e78-43f8-8662-d7e748e2e7c4" created="3.0.0-m-SNAPSHOT" activeEnvironment="Default environment" name="Project 2" updated="3.0.0-m-SNAPSHOT" encryptionMode="Not encrypted" resourceRoot="" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="1164ce72-3e78-43f8-8662-d7e748e2e7c4" created="3.0.0-m-SNAPSHOT" activeEnvironment="Default environment" name="GIT" updated="3.0.0-m-SNAPSHOT" encryptionMode="Not encrypted" resourceRoot="" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   
   <con:savedRecentRuns>1</con:savedRecentRuns>
