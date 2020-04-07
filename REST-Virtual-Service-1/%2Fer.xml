@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:restMockAction name="/er" method="GET" resourcePath="/er" id="194030ed-0aa6-438b-831f-54dfa0d9917b" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="194030ed-0aa6-438b-831f-54dfa0d9917bfileName">%2Fer</con:setting></con:settings><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchConfig/><con:dispatchXPath/><con:routeScript/></con:restMockAction>
