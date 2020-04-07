@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="" id="a1cf5bd4-eb0d-48a2-9f87-eb9206e0ee11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="a1cf5bd4-eb0d-48a2-9f87-eb9206e0ee11fileName"/>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="4e041be5-f43b-4bbd-b89c-a773598d8bd5" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="FAULT">
+      <con:mediaType>text/html</con:mediaType>
+      <con:status>401</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>text/html</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>text/html; charset=ISO-8859-1</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>text/html; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>html</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0</con:status>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:test="https://www.test.com/">test:Response</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE"><con:mediaType>TEXT</con:mediaType><con:status>0</con:status><con:params/></con:representation><con:request name="Request 1" id="64595b27-358a-41d9-8f4d-c74e79d604b7" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>http://localhost:8080/</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://www.test.com/</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters><con:entry key="" value=""/></con:parameters>
+      <con:parameterOrder>
+        <con:entry/>
+      </con:parameterOrder>
+    <con:environmentSpec><con:entry environmentId="8dcac92d-1a2b-4585-8267-55798d358bd4"><con:authProfile>No Authorization</con:authProfile></con:entry></con:environmentSpec></con:request>
+  </con:method>
+</con:resource>
